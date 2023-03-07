@@ -1,0 +1,414 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-transform: capitalize;
+}
+
+/* NAVBAR START HERE */
+
+header{
+    background-image: url(../img/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh
+}
+
+.conatiner{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: navy;
+}
+
+.logo{
+    border: 1px solid  white;
+    margin: 8px;
+    padding: 2px;
+    color: white;
+    background-color: red;
+}
+
+.navbar{
+    margin: 2px;
+    padding: 2px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    padding: 1px;
+}
+
+.navbar a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+header h3,p{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+/* NAVBAR END HERE */
+
+
+
+/* SECTION 1 START HERE */
+
+.sec1{
+    background-color: whitesmoke;
+}
+
+.d1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7px;
+}
+
+.box1{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    height: auto;
+}
+
+.box1 img{
+    display:block;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+}
+
+.box1 h4{
+    text-align: center;
+    color: navy;
+}
+
+.para1{
+    text-decoration: none;
+    text-align: justify;
+    word-wrap: break-word;
+    margin: 2px;
+    padding: 3px;
+}
+
+.box1 button{
+    display: block;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box1 button:hover{
+    text-decoration: underline;
+    background-color: gray;
+    color: black;
+    box-shadow: 1px 1px black;
+}
+
+/* SECTION 1 END HERE */
+
+
+
+
+
+
+/* SECTION 2 START HERE */
+
+.d2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    margin: 4px ;
+    padding: 3px;
+}
+
+.headpara1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    word-wrap: break-word;  
+    text-decoration: none;
+}
+
+.box2{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 3px;
+    padding: 3px;
+    height: auto;
+}
+
+.box2 img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.box2 h3{
+    text-align: center;
+    margin: 2px;
+}
+
+.para2{
+    text-align: justify;
+    word-wrap: break-word;
+    text-decoration: none;
+    margin: 4px;
+    padding: 3px;
+}
+
+.box2 button{
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 2px;
+    background-color: royalblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box2 button:hover{
+    box-shadow: 1px 1px black;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+/* SECTION 2 END HERE */
+
+
+
+
+
+
+
+
+
+/* SECTION 3 START HERE */
+
+.sec3{
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.sec3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para3{
+    text-align: center;
+    text-decoration: none;
+    word-wrap: break-word;
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+}
+
+.ndiv{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    margin: 5px;
+}
+.box4{
+    border: 1px solid black;
+    height: auto;
+    width: 400px;
+    margin: 5px;
+}
+.box4 img{
+    height: 100px;
+    width: 100px;
+    float:left ;
+}
+.box4 p{
+    margin: 7px;
+    padding: 5px;
+    text-align: justify;
+    text-decoration: none;
+}
+.box5{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    margin: 5px;
+}
+.box5 img{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 4px;
+    padding: 4px;
+}
+
+/* SECTION 3 END HERE */
+
+/* FOOTER START HERE */
+
+footer{
+    background-color:rgba(240, 206, 240, 0.477);
+}
+
+.fh4{
+    text-align: center;
+    margin-top: 5px; 
+}
+
+.foot p{
+    text-decoration: none;
+}
+
+.foot input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+}
+
+.foot button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* FOOTER END HERE */
+
+
+/* MEDIA QUERY START HERE (BREAK POINT 1) */
+
+@media screen  and (min-width:250px) and (max-width:500px){
+
+    .box1{
+        width: 80%;
+        height: auto;
+    }
+
+    .headpara1{
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+    .para3{
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .box5{
+        width: 80%;
+    }
+
+    .box5 img{
+        width: 97%;
+        height: auto;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY START HERE (BREAK POINT 2) */
+
+@media screen  and (min-width:500px) and (max-width:1000px){
+
+    .box1{
+        margin-top: 10px;
+        width: 70%;
+        height: auto;
+        font-size: 1.3rem;
+    }
+
+    .headpara1{
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+    .para3{
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+
+    .box2{
+        width: 70%;
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+
+    .box4{
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .box5{
+        width: 80%;
+    }
+
+    .box5 img{
+        width: 97%;
+        height: auto;
+    }
+
+    .foot{
+        font-size: 1.3rem;
+    }
+
+    footer button,input{
+        font-size: 1.3rem;
+
+    }
+    
+    
+}
